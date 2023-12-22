@@ -1,0 +1,222 @@
+
+#header{
+  display: flex;
+  background-color: rgb(27, 125, 230);
+}
+#header1{
+    position: relative;
+    width: 100vw;
+    height: 60px;
+    background-color: rgb(27, 125, 230);
+    align-items: center;
+    
+
+}
+#schoolName{
+    position: relative;
+    width: 100vw;
+    height: 100px;
+    background-color: azure;
+    /* display:flex; */
+
+    
+}
+#para1{
+    text-align: center;
+    margin-top:20px;
+    font-size: 65px;
+    color: rgb(6, 37, 115);
+    font-weight: bold;
+    
+}
+#navbar{
+      position: relative;
+        width: 100vw;
+        height: 80px;
+        background-color: rgb(27, 125, 230);
+        /* display: flex; */
+        justify-content: center;
+        
+}
+
+   ul {
+    
+    list-style-type: none;
+    padding:5px;
+    }
+        li{
+        display: inline-flex;
+       
+    }
+    li a{
+        font-size: 20px;
+        padding-right: 5px;
+        margin-right: 5px;
+        color: whitesmoke;
+        text-decoration: none;
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: bold;
+    }
+    
+  /* li a::after {
+    display: inline-block;
+    color: #000;
+    font-size: 80%;
+    font-weight: bold;
+    padding: 0 20px;
+  }  */
+  #slider{
+    width: 100vw;
+    height: 80px;
+      }
+      #sliderImage{
+        width: 100vw;
+      }
+  #text{
+            margin-top: 55%;
+      }
+      #homepara{
+        font-size: 50px;
+        color: rgb(248, 249, 250);
+        background-color: rgb(33, 140, 122);
+      }
+      #abouttext{
+        position: absolute;
+        justify-content:space-around;
+        margin-top: 54%;
+        width: 80%vw;
+        height: 100px;
+        align-items:stretch
+      }
+      #aboutheading{
+        position: relative;
+       align-items: center;
+        margin-left: 100px;
+        font-size: 40px;
+        font-weight: bold;
+      }
+      #aboutpara{
+        position: relative;
+       align-items: center;
+        margin-left: 100px;
+        font-size: 40px;
+        color: rgb(19, 19, 20);
+      }
+      #info{
+        margin-top: 5%;
+        width: 100vw;
+      }
+      table{
+        border-spacing: 10px;
+        
+      } 
+      table th{
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 50px;
+        font-weight: bold;
+        border-bottom: 2px solid skyblue;
+      }
+      th{
+        padding: 5px;
+      }
+      td{
+        
+        padding: 5px;
+        font-size: 30px;
+        border-bottom: 2px solid skyblue;
+      }
+      #rtepara{
+        position: relative;
+        align-items: center;
+         margin-left: 100px;
+         font-size: 40px;
+         color: rgb(19, 19, 20);
+      }
+      .facimg{
+        width: 400px;
+        height: 300px;
+      }
+      #factable{
+        border-spacing: 2px;
+      }
+      #facpara{
+        font-size: 50px;
+        color: rgb(29, 90, 211);
+        font-weight: bold;
+      }
+      #galpara{
+        font-size: 50px;
+        color: rgb(29, 90, 211);
+        font-weight: bold;
+      }
+      #galtable{
+        border-spacing: 10px;
+      }
+      .galimg{
+        width: 350px;
+        height: 300px;
+      }
+      #paperpara{
+        font-size: 50px;
+        color: rgb(29, 90, 211);
+        font-weight: bold;
+        
+      }
+      #footpara{
+        font-size: 30px;
+        color: rgb(18, 18, 19);
+        font-weight: bold;
+        text-align: center;
+      }
+      .labelForForm{
+        font-size: 20px;
+        font-weight: bold;
+      }
+      #headerTwo{
+        float: right;
+      }
+      .items::after{
+        content: '>';
+        color: white;        
+        margin: 0;
+        padding: 0;
+        font-size: 15px;
+      }
+      /* Media Quesries */
+      /* 
+              Mobile devices – 320px — 480px.
+              iPads, Tablets – 481px — 768px.
+              Small screens, laptops – 769px — 1024px.
+              Desktops, large screens – 1025px — 1200px
+      */
+      @media screen and (max-width:480px){
+        #navbar{    
+          width: 100%;
+          height: 80px;
+          background-color: rgb(230, 27, 162);
+          display: block;
+          
+        }
+        #schoolName{
+          width: 100%;
+          height:100px;
+          background-color: azure;
+          display:block;
+
+      
+          
+      }
+      #para1{
+          /* text-align: center; */
+          /* margin-top:20px; */
+          font-size: 65px;
+          color: rgb(6, 37, 115);
+          font-weight: bold;
+          display:inline-flex;
+          width: 100%;
+
+      }
+    }
+      
+      
+      
